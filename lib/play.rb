@@ -39,4 +39,5 @@ end
 def play(board)
   until position_taken(board) == false
     turn(board)
+  end
 end
